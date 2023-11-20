@@ -1,11 +1,17 @@
 .toplinks{
     text-align: end;
 }
+.links{
+    text-decoration: none;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+}
 .form{
-    height: 750px;
+    height: 100px;
     display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
+    padding: 20px;
 }
 .form input{
     width:500px;
@@ -22,4 +28,54 @@
     padding:10x;
     margin:10px;
     height: 30px;
+}
+.img{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 375px;
+}
+img{
+    height: 75px;
+}
+.adtitle{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.addiv{
+    border-top: 1px solid black;
+    margin: 20px 0;
+}
+.adfrom{
+    margin:40px;
+}
+.adsbdiv{
+    display:flex;
+    margin: 20px 0;
+    width: 600px;
+}
+.adsdiv{
+    width: 200px;
+}
+.adsin{
+    width: 300px;
+    height: 21px;
+}
+.adsbd{
+    display:flex;
+    justify-content: end;
+    width: 508px;
+}
+.adsb{
+    height: 28px;
+    width: 110px;
+    background-color: rgb(77, 148, 247);
+    color: rgb(251, 251, 251);
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 1px rgb(77, 148, 247);
+    padding: 5px;
 }
