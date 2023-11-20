@@ -2,11 +2,19 @@
 <html lang="en">
     <head>
         <title>Advance Search</title>
+        <link href="/style.css" rel="stylesheet"> 
     </head>
     <body>
+        <div>
+            <a href="/index.html">Return to google search</a>
+        </div>
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <button type="submit" >Google search</button>
+            <div>Find pages wtih...</div>
+            <div>all these words: <input type="text" name="as_q"></div>
+            <div>this exact word or phrase: <input type="text" name="as_epq"></div>
+            <div>any of these words: <input type="text" name="as_oq"></div>
+            <div>none of these words: <input type="text" name="as_eq"></div>
+            <button type="submit" >Google advance search</button>
         </form>
     </body>
 </html>
