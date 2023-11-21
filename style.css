@@ -16,7 +16,7 @@
 .form input{
     width:500px;
     height: 30px;
-    border-radius: 24px;
+    border-radius: 25px;
 }
 .buttons{
     display:flex;
