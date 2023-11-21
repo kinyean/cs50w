@@ -79,3 +79,24 @@ img{
     border: 1px rgb(77, 148, 247);
     padding: 5px;
 }
+.imgsi{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 400px;
+}
+.imgi{
+    width: 500px;
+    height: 40px;
+    border-radius: 25px;
+}
+.imgsimg{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    align-items: end;
+}
+.ispan{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, san-serif;
+}
